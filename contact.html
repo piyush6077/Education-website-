@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebEdu</title>
+    <link rel="stylesheet" href="display.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,200;1,100;1,200&family=Lobster&family=Mukta:wght@300;400&family=Noto+Sans+JP:wght@100;300&family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif:ital@1&family=Oswald:wght@300&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,400;1,100&display=swapfamily=IBM+Plex+Sans+Arabic:wght@400;500&family=Outfit:wght@500&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200&display=swap&family=Titillium+Web:wght@600&display=swap" " rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cont_main{
+            margin-top: 50px;
+            width:80vw;
+            height:350px;
+            background: var(--color-bg1);
+            justify-content: space-evenly;
+            border:1px solid var(--color-bg2);
+            border-radius: 20px;
+        }
+        .contact_container{
+            width:100vw;
+            height:700px;
+            position:relative;
+            margin-top:100px;
+            justify-content: center;
+        }
+        .contact_img{
+            background:#6770dd;
+            height:500px;
+            width:300px;
+            border-radius: 20px;
+            position:absolute;
+            left:150px;
+            top:0px;
+        }
+        .cimage{
+            margin-top:10px;
+            border-radius: 20px;
+            height:40%;
+            padding: 10px;
+        }
+        .info{
+            margin:0 20px;
+        }
+
+        .form_div{
+            padding:20px;
+            padding-top: 60px;
+            position:relative;
+            margin-left: 400px;;
+        }
+
+        .contact__form{
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-right:4rem;
+        }
+
+        .type{
+            outline:none;
+            background: var(--color-bg);
+            border:1px solid var(--color-bg);
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+
+        .btn{
+            width: max-content;
+            cursor:pointer;
+            margin-top: 10px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="firstconatiner">
+            <nav class="headcontainer flex">
+                <div class="logname ml-80px fw-700">WebEdu</div>
+                <div class="listname  mr-60px flex">
+                    <a href="index.html" class="navelement">Home</a>
+                    <a href="about.html" class="navelement">About</a>
+                    <a href="courses.html" class="navelement">Courses</a>
+                    <a href="contact.html" class="navelement">Contact</a>
+                </div>
+            </nav>
+
+            <!-- header end here  -->
+            <section class="contact_container flex">
+                <div class="flex cont_main">
+                    <div class="contact_img flexr">
+                        <img src="images/contact.svg" class="cimage">
+                        <br>
+                        <div class="contact_info">
+                            <h2 class="ml-30 mr-10 mb-10">Contact Us </h2>
+                            <div class="info">
+                                <div class="ml-10 mr-10 fsize-13">Lorem ip elit. Cumque nesciunt, itaque temporibus laboriosam quibusdam nemo esse odio aliquid non molestiae</div>
+                                <br>
+                                <p class="ml-10 mr-10 fsize-13">+000 000 0000</p>
+                                <p class="ml-10 mr-10 fsize-13">webEdu@gmail.com</p>
+                            </div>
+                        </div>     
+                    </div>
+                    <form class="form_div contact__form">
+                        <div class="form_name">
+                            <input type="text" class="type" name="First Name" placeholder="First Name" required>
+                            <input type="text" class="type"  name="Last Name" placeholder="Last Name" required>
+                        </div>
+                        <input type="email" class="type"  name="Email Address" placeholder="You Email Address" required>
+                        <textarea name="Message" rows="7" class="type"  placeholder="Message" required></textarea>
+                        <button class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="footer flex">
+                <div class="logname">
+                    <h3 class="m-20  mb-10">WebEdu</h3>
+                    <div class="m-20 fsize-13">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis possimus  </div>
+                </div>
+                <div class="premalink">
+                    <h3 class="m-20  mb-20">premalink</h3>
+                    <div class="listname  mr-60px flexr ">
+                        <a href="main.html" class="navelement">Home</a>
+                        <a href="about.html" class="footerelement navelement ">About</a>
+                        <a href="courses.html" class="navelement footerelement">Courses</a>
+                        <a href="contact.html" class="navelement footerelement">Contact</a>
+                    </div>
+                </div>
+                <div class="privacy flexr">
+                    <h3 class="m-20  mb-20">privacy</h3>
+                    <div class="listname  mr-60px flexr ">
+                        <a href="#" class="navelement footerelement">Privacy policy</a>
+                        <a href="#" class="navelement footerelement">Terms and conditions</a>
+                        <a href="#" class="navelement footerelement">Refund polices</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h3 class="m-20  mb-20">privacy</h3>
+                    <div class="listname  mr-60px flexr ">
+                        <a href="#" class="navelement footerelement">Contact Us </a>
+                        <a href="#" class="navelement footerelement">000 000 0000</a>
+                        <div class="flex navelement" >
+                            <a href="#" class="imagefooter"><img src="images/instagram.png"></a>
+                            <a href="#" class="imagefooter"><img src="images/facebook.png"></a>
+                            <a href="#" class="imagefooter"><img src="images/linkedin - Copy.png"></a>
+                    </div>
+                </div>
+            </section>
+
+        <script src="brain.js"></script>
+        </div>
+    </div>
+</body>
+</html>

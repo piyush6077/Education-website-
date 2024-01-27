@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebEdu</title>
+    <link rel="stylesheet" href="display.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,200;1,100;1,200&family=Lobster&family=Mukta:wght@300;400&family=Noto+Sans+JP:wght@100;300&family=Noto+Sans+KR:wght@300;400;500&family=Noto+Serif:ital@1&family=Oswald:wght@300&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,400;1,100&display=swapfamily=IBM+Plex+Sans+Arabic:wght@400;500&family=Outfit:wght@500&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200&display=swap&family=Titillium+Web:wght@600&display=swap" " rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        *{
+            color:white;
+        }
+        .achievement{
+            justify-content: space-evenly;
+            width: 100vw;
+            /* background: blue; */
+            background: var(--color-bg);
+            height:500px;
+            padding-top: 50px;
+        }
+
+        .first{
+            margin-top: 40px;;
+            width:35vw;
+            height:40vh;
+        }
+        .second{
+            width:40vw;
+            height:60vh;
+            margin-top: 60px;
+            text-align: left;
+        }
+    
+        .achBox{
+            display: flex;
+            margin-top: 30px;
+            width:140px;
+            height:180px;
+            /* background: yellow; */
+            background: var(--color-bg1);
+            margin-right: 20px;
+            border-radius: 20px;
+            align-items:center;
+        }
+
+        .img_ach{
+            width: 40px;
+            background: rgb(253, 107, 54);
+            border-radius: 10px;
+            align-items:center;
+            padding:0px 5px;
+            
+        }
+        .img_ach2{
+            width: 40px;
+            background: rgb(61, 253, 54);
+            border-radius: 10px;
+            padding:0px 5px;
+        }
+        .img_ach3{
+            width: 40px;
+            background: rgb(114, 54, 253);
+            border-radius: 10px;
+            padding:0px 5px;
+        }
+
+
+        .img1{
+            margin: 13px 5px;
+            width: 30px;
+            height: 30px;
+            align-self:center;
+        }
+
+        .teamContainer{
+            width: 100vw;
+            height:800px;
+            padding-top:100px;
+            /* background: yellow; */
+            background: var(--color-bg1);
+            text-align: center;
+            align-items:center;
+            box-shadow: 0px 5px 20px inset rgb(27, 27, 27);
+        }
+
+        .teamPro{
+            margin-top: 20px;
+            height:200px;
+            width: 70vw;
+            /* background: red; */
+            align-items:center;
+            padding-top: 5px;
+        }
+
+        .firstteam{
+            /* background: blue; */
+            height:200px;
+            width: 70vw;
+            margin-bottom: 20px;
+            align-items:center;
+            justify-content: center;
+        }
+
+        .person{
+            width:15vw;
+            height:205px;
+            /* background: brown; */
+            background: var(--color-bg2);
+            border-radius: 10px;
+        }
+
+        .person:hover{
+            background: transparent;
+            border:1px solid var(--color-bg2)
+        }
+
+        .avatar_image{
+            height:60%;
+            padding:20px;
+            padding-bottom: 10px;
+        }
+
+        .aimg{
+            border-radius: 10px;
+        }
+
+        /* ========================== footer ======================== */
+
+        
+
+        .footer>div{
+            width:20vw;
+            height: 200px;
+            margin-top: 30px;
+        }
+
+        .footerelement{
+            margin-top: 10px;
+            font-size: 14px;
+            width: 100%;;
+        }
+        .imagefooter{
+            width: 30px;
+            height: 30px;
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="firstconatiner">
+            <div class="headcontainer flex">
+                <div class="logname ml-80px fw-700">WebEdu</div>
+                <div class="listname  mr-60px flex">
+                    <a href="index.html" class="navelement">Home</a>
+                    <a href="about.html" class="navelement">About</a>
+                    <a href="courses.html" class="navelement">Courses</a>
+                    <a href="contact.html" class="navelement">Contact</a>
+                </div>
+            </div>
+        
+
+            <div class="achievement flex">
+                <div class="first">
+                    <img src="images/about achievements.svg">
+                </div>
+                <div class="second flexr">
+                    <h1 class="mb-10">Achievement</h1>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsum maiores aliquid id voluptatibus facere odit non nam quisquam eos?
+                    </div>
+                    <div class="flex">
+                        <div class="achBox flexr">
+                            <div src="" class="img_ach mt-20 "><img class="img1" src="images/notification (1).png" ></div>
+                            <h3 class="mt-20 mb-5">450+</h3>
+                            <h3 class="">Courses</h3>
+                        </div>
+                        <div class="achBox flexr">
+                            <div src="" class="img_ach2 mt-20"><img class="img1" src="images/contact (1).png" ></div>
+                            <h3 class="mt-20 mb-5">450+</h3>
+                            <h3 class="">Courses</h3>
+                        </div>
+                        <div class="achBox flexr">
+                            <div src="" class="img_ach3 mt-20" ><img class="img1" src="images/video (1).png" ></div>
+                            <h3 class="mt-20 mb-5 ">450+</h3>
+                            <h3 class="">Courses</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="teamContainer flexr">
+                <h2>Meet Our Team </h2><br>
+                <div class="teamPro flex">
+                    <div class="firstteam flex">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar1.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar2.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar3.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar4.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teamPro flex">
+                    <div class="firstteam flex">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar5.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar7.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar6.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar1.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teamPro flex">
+                    <div class="firstteam flex">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar3.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar5.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar2.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="firstteam flexr">
+                        <div class="person flexr">
+                            <div class="avatar_image">
+                                <img  class="aimg" src="images/avatar6.jpg">
+                            </div>
+                            <div class="name">
+                                <h4 class="mb-10">Ruth Shockings</h4>
+                                <h6>Expert Tutor</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- ================================= Footer ================================ -->
+            
+
+            <section class="footer flex">
+                <div class="logname">
+                    <h3 class="m-20  mb-10">WebEdu</h3>
+                    <div class="m-20 fsize-13">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis possimus  </div>
+                </div>
+                <div class="premalink">
+                    <h3 class="m-20  mb-20">premalink</h3>
+                    <div class="listname  mr-60px flexr ">
+                        <a href="main.html" class="navelement">Home</a>
+                        <a href="about.html" class="footerelement navelement ">About</a>
+                        <a href="courses.html" class="navelement footerelement">Courses</a>
+                        <a href="contact.html" class="navelement footerelement">Contact</a>
+                    </div>
+                </div>
+                <div class="privacy flexr">
+                    <h3 class="m-20  mb-20">privacy</h3>
+                    <div class="listname  mr-60px flexr ">
+                        <a href="#" class="navelement footerelement">Privacy policy</a>
+                        <a href="#" class="navelement footerelement">Terms and conditions</a>
+                        <a href="#" class="navelement footerelement">Refund polices</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h3 class="m-20  mb-20">contact</h3>
+                    <div class="listname  mr-60px flexr ">
+                        <a href="#" class="navelement footerelement">Contact Us </a>
+                        <a href="#" class="navelement footerelement">000 000 0000</a>
+                        <div class="flex navelement" >
+                            <a href="#" class="imagefooter"><img src="images/instagram.png"></a>
+                            <a href="#" class="imagefooter"><img src="images/facebook.png"></a>
+                            <a href="#" class="imagefooter"><img src="images/linkedin - Copy.png"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="brain.js"></script>
+</body>
+</html>

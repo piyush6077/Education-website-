@@ -1,0 +1,111 @@
+*{
+    font-family: 'Geologica', sans-serif;
+}
+
+.fw-700{
+    font-weight:700;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    padding: 10px 30px;
+    font-size:18px;
+    border:1px solid transparent;
+    font-weight:500;
+    transition:all 400ms ease;
+    background: rgb(238, 92, 39);
+}
+
+.btn:hover{
+    filter:brightness(150%);
+}
+
+img{
+    width:100%;
+    object-fit: cover;
+}
+
+.bg-y{
+    background: yellow;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexr{
+    display: flex;
+    flex-direction: column;
+}
+.p-10-40{
+    padding: 5px 45px;
+}
+
+.p-10-20{
+    padding:5px 30px;
+}
+
+.m-20{
+    margin: 20px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+
+.ml-80px{
+    margin-left: 80px;
+}
+
+.mr-60px{
+    margin-right: 60px;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.jcse{
+    justify-content: space-evenly;
+}
+
+.fsize-13{
+    font-size: 13px;
+}
+
+.c-white{
+    color: white;;
+}

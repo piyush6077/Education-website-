@@ -1,0 +1,266 @@
+*{
+    margin:0px;
+    color:white;
+}
+body .main{
+    display: flex;
+    margin:0px;
+    background: #1f2641;
+    overflow:hidden;
+}
+
+:root{
+    --color-bg:#1f2641;
+    --color-bg1:#2e3267;
+    --color-bg2:#424890;
+}
+
+.main{
+    display:flex;
+}
+
+.headcontainer{
+    width:100%;
+    line-height: 30px;
+    /* background: blue; */
+    justify-content: space-between;
+    width:100vw;
+    padding:10px 0px;
+    color:white;
+    position:fixed;
+    z-index:21;
+}
+
+/* change navbar */
+.window-scroll{
+    background-color: #545bca;
+    box-shadow: 0  1rem 2rem rgba(0,0,0,0.2);
+}
+.navelement{
+    text-decoration: none;
+    /* color:rgb(255, 255, 255); */
+    color:rgb(255, 255, 255);
+    margin: 0px 20px;
+    font-size:15px;
+}
+.navelement:hover{
+    transition : all 400ms ease;
+    color:rgb(110, 110, 110);
+    /* color:rgb(43, 42, 42); */
+}
+
+/* ====================== header end here ===========================  */
+
+.subcontainer{
+    width:100vw;
+    height:70vh;
+    /* background:blue; */
+    padding-top:40px;
+    justify-content: space-evenly;
+    /* color:white; */
+    position:relative;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.textone{
+    padding-top: 70px;;
+    width:35vw;
+}
+.imgone{
+    width:20vw;
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+
+.containerimg{
+    display:flex;
+    flex-wrap: nowrap;
+    width:100%;
+    height:90%;
+}
+
+/* ================= i st container end here ================ */
+
+.categories_left{
+    width:35vw;
+}
+
+.categories_right{
+    width:50vw;
+}
+
+.categories{
+    height:40vh;
+    padding-top:100px;
+    justify-content: space-evenly;
+}
+
+.category{
+    display:flex;
+    width:120px;
+    height:120px;
+    border:2px solid transparent;
+    padding:20px 10px 20px 20px;
+    gap:5px;
+    margin: 0 0 10px 10px ;
+    border-radius: 20px;
+    /* background: yellow; */
+    background: var(--color-bg2);
+    box-shadow:4px 4px 4px 4px #1f253f;;
+    z-index:11;
+}
+
+.image{
+    text-align: center;
+    width: 15px;
+    height: 15px;
+}
+
+.icon{
+    background: orange;
+    padding:8px;
+    border-radius:10px;
+    width: 15px;
+    height: 15px;
+}
+
+
+/* ========================= Second container end here =================================== */
+
+
+.popularCourses{
+    width:100vw;
+    height:100vh;
+    /* background: rgb(51, 255, 0); */
+    background: var(--color-bg);
+    z-index:1;
+    justify-content: center;
+    align-items: center;
+    padding-top:120px;
+}
+
+.courseContainer{
+    align-items: center;;
+}
+
+.courseBox{
+    width:250px;
+    height:350px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border:1px solid var(--color-bg1);;
+    text-align: center;
+    background: var(--color-bg1);
+    cursor:pointer;
+}
+
+.courseBox:hover{
+    background: transparent;
+}
+
+.courseBox_img{
+    height:40%;
+}
+
+.courseBox_text{
+    height:60%;
+    padding:15px;
+    padding-top:20px;
+    word-break: break-all;
+    margin-bottom: 10px;
+}
+
+
+/* ============================= End of courses ======================= */
+
+.freq_asked_questions{
+    height:90vh;
+    background: var(--color-bg);
+    justify-content: center;
+    padding-top:100px;
+    text-align: center;
+
+} 
+
+.subquestion_container1{
+    width:85vw;
+    /* background: yellow; */
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.dis{
+   width:42vw;
+   height:50px;
+   overflow:hidden;
+   background: var(--color-bg2);
+}
+
+.ques_box{
+    width:42vw;
+    height:140px;
+    /* background: blue; */
+    background: var(--color-bg2);
+    text-align: left;
+}
+
+
+.ques{
+    width:100%;
+    color:white;
+    padding: 13px 10px 10px 10px;
+    margin-left: 15px;;
+}
+
+.queshead{
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.dis:hover{
+    filter:brightness(110%);
+}
+
+.answer{
+    margin-top: 10px;
+    margin-left: 50px;;
+    font-size: 14px;
+}
+
+.plus{
+    margin-top: 2px;;
+    height: 15px;
+    width: 15px;
+}
+
+ /* ========================== footer ======================== */
+
+ .footer{
+    width: 100vw;
+    height:300px;
+    /* background: blue; */
+    background: var(--color-bg1);
+    box-shadow: -10px -10px 20px   var(--color-bg);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer>div{
+    width:20vw;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.footerelement{
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100%;;
+}
+.imagefooter{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
