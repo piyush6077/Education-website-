@@ -25,6 +25,7 @@ body .main{
     /* background: blue; */
     justify-content: space-between;
     width:100vw;
+    line-height: 3.5rem;
     padding:10px 0px;
     color:white;
     position:fixed;
@@ -36,6 +37,16 @@ body .main{
     background-color: #545bca;
     box-shadow: 0  1rem 2rem rgba(0,0,0,0.2);
 }
+
+.logname{
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+.listname{
+    margin-right: 120px;
+}
+
 .navelement{
     text-decoration: none;
     /* color:rgb(255, 255, 255); */
@@ -43,6 +54,7 @@ body .main{
     margin: 0px 20px;
     font-size:15px;
 }
+
 .navelement:hover{
     transition : all 400ms ease;
     color:rgb(110, 110, 110);
@@ -56,20 +68,33 @@ body .main{
     height:70vh;
     /* background:blue; */
     padding-top:40px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     /* color:white; */
     position:relative;
     background-size: cover;
     background-position: center;
 }
 
+.headtext{
+    font-size: 220%;
+}
 
-.textone{
+.subtext{
+    margin-top: 20px;
+    color: rgb(173, 169, 169);
+}
+
+.textone{ 
+    margin-top: 40px;
     padding-top: 70px;;
     width:35vw;
+    /* font-size: 25px; */
 }
-.imgone{
-    width:20vw;
+
+
+.imageone{
+    display: flex;
+    width:35vw;
     padding-top: 0px;
     margin-bottom: 20px;
 }
@@ -78,41 +103,44 @@ body .main{
     display:flex;
     flex-wrap: nowrap;
     width:100%;
-    height:90%;
+    height:100%;
 }
 
 /* ================= i st container end here ================ */
 
 .categories_left{
-    width:35vw;
+    width:39vw;
+    /* font-size: 23px; */
 }
 
 .categories_right{
-    width:50vw;
+    width:39vw;
 }
 
 .categories{
-    height:40vh;
+    height:45vh;
     padding-top:100px;
     justify-content: space-evenly;
 }
 
 .category{
     display:flex;
-    width:120px;
-    height:120px;
+    width:150px;
+    height:150px;
     border:2px solid transparent;
-    padding:20px 10px 20px 20px;
+    padding:20px 20px 20px 20px;
     gap:5px;
     margin: 0 0 10px 10px ;
     border-radius: 20px;
     /* background: yellow; */
     background: var(--color-bg2);
-    box-shadow:4px 4px 4px 4px #1f253f;;
+    border:0;
+    box-shadow:4px 4px 10px 10px  #252c4b;;
     z-index:11;
 }
 
 .image{
+    margin-bottom: 5px;
     text-align: center;
     width: 15px;
     height: 15px;
@@ -122,10 +150,22 @@ body .main{
     background: orange;
     padding:8px;
     border-radius:10px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
 }
 
+.category_name{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.category_subText{
+    color:rgb(219, 217, 217);
+    font-weight: 100;
+    font-size:12px;
+    text-align:justify;
+    font-family: 'Roboto';
+}
 
 /* ========================= Second container end here =================================== */
 
@@ -239,24 +279,31 @@ body .main{
 
  .footer{
     width: 100vw;
-    height:300px;
+    height:400px;
     /* background: blue; */
     background: var(--color-bg1);
     box-shadow: -10px -10px 20px   var(--color-bg);
-    align-items: center;
     justify-content: space-evenly;
 }
 
 .footer>div{
-    width:20vw;
+    width:28vw;
     height: 200px;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 .footerelement{
     margin-top: 10px;
     font-size: 14px;
     width: 100%;;
+}
+
+.footerlistname{
+    line-height: 25px;
+}
+
+.fonts{
+    font-size: 22px;
 }
 .imagefooter{
     width: 30px;
